@@ -1,0 +1,185 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    font-family: Chalkboard SE;
+}
+
+.startPagina img {
+    max-width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.startPagina h1 {
+    position: absolute;
+    top: 43%;
+    left: 11%;
+
+    color: White;
+    font-size: 5em;
+    z-index: 2;
+}
+
+.startPagina p {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+
+    color: White;
+    font-size: 1.8em;
+    text-align: center;
+    z-index: 2;
+}
+
+.startButton {
+    background-color:#F39200;
+    color: white;
+    border: none;
+    border-radius: 10em;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 15px black;
+
+    position: absolute;
+    left: 20%;
+    top: 82%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    font-weight: 1000;
+    z-index: 2;
+ 
+}
+
+.startButton:hover {
+    background-color: #BD1622;
+}
+
+.opmaakAchtergrond img {
+    max-width: 100%;
+    position: fixed;
+}
+
+
+.voorbeeldBlok img{
+    top: 9%;
+    left: 5%;
+    position: fixed;
+    max-width: 15em;
+
+}
+
+
+.voorbeeldBlok h1 {
+    position: fixed;
+    top: 2%;
+    left: 6%;
+    font-size: 2em;
+    color:  black;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 0.5em;
+}
+
+
+.tomaat  {
+    max-width: 12em;
+    position: fixed;
+    top: 10%;
+    left: 25%;
+}
+
+#sausOpmaak {
+    max-width: 18.8em;
+    position: fixed;
+    top: 50.8%;
+    left: 43.8%; 
+    z-index: 2;
+}
+
+.kaas  {
+    max-width: 12em;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+}
+
+#kaasOpmaak{
+    max-width: 16.6em;
+    position: fixed;
+    top: 52.3%;
+    left: 45%; 
+    z-index: 2;
+}
+
+.salami {
+    max-width: 12em;
+    position: fixed;
+    top: 10%;
+    left: 55%;
+}
+
+#salamiOpmaak {
+    max-width: 13em;
+    position: fixed;
+    top: 57%;
+    left: 47%; 
+    z-index: 2;
+}
+
+.basilicum {
+    max-width: 12em;
+    position: fixed;
+    top: 10%;
+    left: 70%;
+}
+
+#basilicumOpmaak{
+    max-width: 11em;
+    position: fixed;
+    top: 59%;
+    left: 46%; 
+    z-index: 2; 
+}
+
+.olijf  {
+    max-width: 12em;
+    position: fixed;
+    top: 10%;
+    left: 85%;
+}
+
+#olijvenOpmaak {
+    max-width: 10em;
+    position: fixed;
+    top: 55%;
+    left: 49%; 
+    z-index: 2;  
+}
+
+.bodem img {
+    max-width: 7em;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+
+}
+
+#pizzaBodem {
+    max-width: 22em;
+    position: fixed;
+    top: 48%;
+    left: 42%;
+
+}
+
+.ovenButton img {
+    position: absolute;
+    max-width: 10em;
+    top: 80%;
+    right: 5%;
+}

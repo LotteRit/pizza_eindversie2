@@ -1,0 +1,15 @@
+Naam: Lotte Ritmeester
+Studentnummer: 500927964
+Klas: Azuur
+Schooljaar: Leerjaar 1 (2023/2024)
+
+
+BRONVERMELDING
+Bron: Zus van Andrea Beglarian (van een afbeelding een button maken en wanneer er op word geklikt word er een andere afbeelding zichtbaar word)
+https://stackoverflow.com/questions/67497327/how-can-i-add-an-image-to-javascript-after-a-button-click
+
+Bron: houten tafelblad
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dwood%2Bcartoon%2Btexture&psig=AOvVaw0f_N_VTglZ9Z2n9jzWj7F1&ust=1717083754474000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODmvtGZs4YDFQAAAAAdAAAAABAp
+
+Bron: oven knop 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F3202352%2Ffood_italian_oven_pizza_icon&psig=AOvVaw0cK38IDC0aBT05BtbfLXmb&ust=1717083885260000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjcqoyas4YDFQAAAAAdAAAAABAE
