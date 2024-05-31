@@ -5,7 +5,7 @@ Schooljaar: Leerjaar 1 (2023/2024)
 
 
 BRONVERMELDING
-Bron: Zus van Andrea Beglarian (van een afbeelding een button maken en wanneer er op word geklikt word er een andere afbeelding zichtbaar word)
+Bron: Alina Beglarian de zus van Andrea Beglarian (van een afbeelding een button maken en wanneer er op word geklikt word er een andere afbeelding zichtbaar word)
 https://stackoverflow.com/questions/67497327/how-can-i-add-an-image-to-javascript-after-a-button-click
 
 Bron: houten tafelblad

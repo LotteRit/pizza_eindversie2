@@ -1,7 +1,6 @@
 console.log ("Lotte's pizzeria")
 
-// Bron: Zus van Andrea Beglarian (van een afbeelding een button maken en wanneer er op word geklikt word er een andere afbeelding zichtbaar word)
-// https://stackoverflow.com/questions/67497327/how-can-i-add-an-image-to-javascript-after-a-button-click
+
 let buttonDeeg = document.getElementById("buttonDeeg").addEventListener("click",veranderDeeg);
 let bodemImage = document.getElementById("pizzaBodem")
 
