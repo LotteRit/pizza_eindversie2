@@ -32,7 +32,7 @@
     z-index: 2;
 }
 
-.startButton {
+.startPagina a {
     background-color:#F39200;
     color: white;
     border: none;
@@ -49,17 +49,20 @@
     padding-right: 4em;
     font-weight: 1000;
     z-index: 2;
+    text-decoration: none;
  
 }
 
-.startButton:hover {
+.startPagina a:hover {
     background-color: #BD1622;
 }
 
 .opmaakAchtergrond img {
     max-width: 100%;
     position: fixed;
+    z-index: -10;
 }
+
 
 
 .voorbeeldBlok img{
@@ -182,4 +185,19 @@
     max-width: 10em;
     top: 80%;
     right: 5%;
+}
+
+#bericht {
+   position: fixed; 
+   left: 25%;
+   top: 50%;
+
+   color: #F39200;
+   background-color: white;
+   font-size: 3em;
+   padding-top: 2em;
+   padding-bottom: 2em;
+ 
+
+
 }

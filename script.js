@@ -53,6 +53,14 @@ ingredienten.forEach( (ingredient) => {
     }
 }) 
 
+let berichtElement = document.querySelector("#bericht")
+let ovenButton = document.querySelector("#oven").addEventListener("click", berichtVeranderen)
+
+function berichtVeranderen(){
+    berichtElement.textContent= "Heel goed gedaan! Bedankt voor je hulp!!"; 
+    berichtElement.hidden = !berichtElement.hidden
+}
+
 
 
 
