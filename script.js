@@ -1,47 +1,42 @@
 console.log ("Lotte's pizzeria")
 
 
-let buttonDeeg = document.getElementById("buttonDeeg").addEventListener("click",veranderDeeg);
+let buttonDeeg = document.getElementById("buttonDeeg")
 let bodemImage = document.getElementById("pizzaBodem")
 
-function veranderDeeg(){
-bodemImage.hidden = !bodemImage.hidden;
-}
+buttonDeeg.addEventListener("click",veranderDeeg);
 
-let buttonSaus = document.getElementById("buttonSaus").addEventListener("click", veranderSaus);
+
+let buttonSaus = document.getElementById("buttonSaus")
 let sausImage = document.getElementById("sausOpmaak")
 
-function veranderSaus(){
-sausImage.hidden = !sausImage.hidden;    
-}
+buttonSaus.addEventListener("click", veranderSaus);
 
-let buttonKaas = document.getElementById("buttonKaas").addEventListener("click", veranderKaas);
+
+let buttonKaas = document.getElementById("buttonKaas")
 let kaasImage = document.getElementById("kaasOpmaak")
 
-function veranderKaas(){
-    kaasImage.hidden = !kaasImage.hidden
-}
+buttonKaas.addEventListener("click", veranderKaas);
 
-let buttonSalami = document.getElementById("buttonSalami").addEventListener("click", veranderSalami);
+
+let buttonSalami = document.getElementById("buttonSalami")
 let salamiImage = document.getElementById("salamiOpmaak")
 
-function veranderSalami(){
-    salamiImage.hidden = !salamiImage.hidden
-}
+buttonSalami.addEventListener("click", veranderSalami);
 
-let buttonBasilicum = document.getElementById("buttonBasilicum").addEventListener("click", veranderBasilicum);
+let buttonBasilicum = document.getElementById("buttonBasilicum")
 let basilicumImage = document.getElementById("basilicumOpmaak")
 
-function veranderBasilicum(){
-    basilicumImage.hidden = !basilicumImage.hidden
-}
+buttonBasilicum.addEventListener("click", veranderBasilicum);
 
-let buttonOlijven = document.getElementById("buttonOlijven").addEventListener("click", veranderOlijven);
+let buttonOlijven = document.getElementById("buttonOlijven")
 let olijvenImage = document.getElementById("olijvenOpmaak")
 
-function veranderOlijven(){
-    olijvenImage.hidden = !olijvenImage.hidden
-}
+buttonOlijven.addEventListener("click", veranderOlijven);
+
+
+let berichtElement = document.querySelector("#bericht")
+let ovenButton = document.querySelector("#oven").addEventListener("click", berichtVeranderen)
 
 let ingredienten = document.querySelectorAll(".voorbeeld") 
 
@@ -52,8 +47,29 @@ ingredienten.forEach( (ingredient) => {
     }
 }) 
 
-let berichtElement = document.querySelector("#bericht")
-let ovenButton = document.querySelector("#oven").addEventListener("click", berichtVeranderen)
+function veranderDeeg(){
+    bodemImage.hidden = !bodemImage.hidden;
+    }
+
+function veranderSaus(){
+        sausImage.hidden = !sausImage.hidden;    
+        }
+        
+function veranderKaas(){
+            kaasImage.hidden = !kaasImage.hidden
+        }
+
+ function veranderSalami(){
+            salamiImage.hidden = !salamiImage.hidden
+        }
+
+function veranderBasilicum(){
+            basilicumImage.hidden = !basilicumImage.hidden
+        }
+
+ function veranderOlijven(){
+            olijvenImage.hidden = !olijvenImage.hidden
+        }
 
 function berichtVeranderen(){
     berichtElement.textContent= "Heel goed gedaan! Bedankt voor je hulp!!"; 
